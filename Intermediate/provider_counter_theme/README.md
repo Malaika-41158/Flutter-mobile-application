@@ -1,16 +1,56 @@
-# provider_counter_theme
+# Flutter Counter + Theme Switcher (Provider)
 
-A new Flutter project.
+A simple Flutter app demonstrating **state management using Provider**.  
+Features include a counter with increment/decrement/reset buttons and a theme switcher (light/dark mode) with persistence using SharedPreferences.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Features
+- Counter with:
+    - Increment
+    - Decrement
+    - Reset (bonus)
+- Theme Switcher:
+    - Toggle between **Light/Dark mode**
+    - Persists preference using **SharedPreferences**
+- State management with **Provider**
+- Clean and modular code
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Setup Instructions
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Malaika-41158/Flutter-mobile-application/Intermediate/provider_counter_theme
+2. Navigate into the project:
+    ```bash
+   cd flutter-provider-counter-theme
+3. Install dependencies:
+    ```bash
+   flutter pub get
+4. Run the app:
+    ```bash
+   flutter run
+   
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Screenshots
+![Counter](assets/counter.png)
+![Theme Switcher](assets/theme.jpg)
+![Demo](assets/demo.mp4)
+
+---
+
+## Project Structure
+lib/
+├── main.dart
+├── providers/
+│    ├── counter_provider.dart
+│    └── theme_provider.dart
+├── screens/
+│    └── home_screen.dart
+
+---
+
+## Presented by
+**Malaika, Software engineering Student**
